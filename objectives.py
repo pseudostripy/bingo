@@ -11,7 +11,7 @@ objectives = [
         "clash": "shrodinger licia"},
     {"name": "don't speak to Lenigrast"},
     {"name": "don't use any small lifegems",    "level": "?medium?", "props": ["predrangleic", "restriction"]},
-    {"name": "don't wear any armour",           "level": "medium", "props": ["predrangleic", "restriction"]}
+    {"name": "don't wear any armour",           "level": "medium", "props": ["predrangleic", "restriction"]},
     {"name": "don't use an upgraded weapon",    "level": "?medium?", "props": ["predrangleic", "restriction"]},
     {"name": "kill the Pursuer without ballista or quick kill", "level": "easy", "props": "predrangleic"},
     {"name": "kill the Flexile Sentry",         "level": "easy", "props": "predrangleic"},
