@@ -62,7 +62,7 @@ objectives = [
     {"name": "kill a boss with only hexes"},
     {"name": "kill a boss with only miracles"},
     {"name": "kill a boss with only sorceries"},
-    {"name": "kill a boss with a whip",         "level": "expert", "props": "predrangleic"},
+    {"name": "kill a boss with a whip",                         "level": "expert", "props": "predrangleic"},
     {"name": "kill a boss with a broken weapon",                "level": "expert", "props": "predrangleic"},
     {"name": "kill a boss with a boss weapon"},
     {"name": "kill a boss using only a shield"},
@@ -241,9 +241,8 @@ objectives = [
     {"name": "inherit Benhart's armour",         "level": "easy", "clash": "shrodinger benhart"},
     {"name": "trade one boss soul with each vendor", "level": "easy", "props": "predrangleic"},
     # purchases
-    {"name": "purchase The Smelter Demon set"},
-    {"name": "purchase all 4 pieces of the Moonlight Butterfly set", "level": "hard", "props": "predrangleic"},
-    {"name": "purchase The Smelter Demon set",  "level": "easy", "props": "predrangleic"},
-    {"name": "purchase Lost Sinner set",        "level": "easy", "props": "predrangleic"},
-    {"name": "purchase Looking Glass Knight set", "level": "easy"},
+    {"name": "purchase all 4 pieces of the Moonlight Butterfly set",    "level": "hard", "props": "predrangleic"},
+    {"name": "purchase The Smelter Demon set",                          "level": "easy", "props": "predrangleic"},
+    {"name": "purchase Lost Sinner set",                                "level": "easy", "props": "predrangleic"},
+    {"name": "purchase Looking Glass Knight set",                       "level": "easy"},
 ]
