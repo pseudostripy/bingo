@@ -1,22 +1,18 @@
-def generate(objectives, diff, bpredrang):
+def generate(objectives, difflevels, thisdiff, bpredrang):
     if bpredrang:
-        suff = "early"
+        suff = "predrang"
     else:
         suff = "all"
 
-    # filter dictionary for the chosen specs
-    difflevels = {"easy":   0,
-                  "medium": 1,
-                  "hard":   2,
-                  "expert": 3
-                  }
-
     # first filter (by difficulty level)
-    f1obj = [item for item in objectives if difflevels[item["level"]] <= difflevels[diff]]
-
+    f1obj = [item for item in objectives if difflevels[item["level"]] <= difflevels[thisdiff]]
+    if bpredrang:
+        # sub-filter by predrangleic
+        f1obj_props = [item for item in f1obj if "props" in item.keys()]
+        f1obj = [item for item in f1obj_props if "predrangleic" in item["props"]]
     # open file location
     fol = "./bingolists/"
-    fname = diff + "_" + suff + ".txt"  # make filename
+    fname = thisdiff + "_" + suff + ".txt"  # make filename
     fpath = fol + fname
     f = open(fpath, "w")
 

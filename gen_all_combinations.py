@@ -1,11 +1,15 @@
 from generate_bingo import generate
-
 from objectives import objectives
 
-Nexpert = sum(1 for item in objectives if ("level" in item and item["level"] == "expert"))
-Nhard = sum(1 for item in objectives if ("level" in item and item["level"] == "hard"))
-Nmedium = sum(1 for item in objectives if ("level" in item and item["level"] == "medium"))
-Neasy = sum(1 for item in objectives if ("level" in item and item["level"] == "easy"))
+# filter dictionary for the chosen specs
+difflevels = {"easy":   0,
+              "medium": 1,
+              "hard":   2,
+              "expert": 3,
+              "torture": 4
+              }
 
-print("testing")
-generate(objectives, "hard", True)
+for key in difflevels.keys():
+    generate(objectives, difflevels, key, True)   # pre-drangleic tasks only
+    generate(objectives, difflevels, key, False)  # any tasks
+

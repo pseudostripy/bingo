@@ -245,7 +245,7 @@ objectives = [
     {"name": "inherit Lucatiel's armour",           "level": "expert", "clash": "shrodinger Lucatiel"},
     {"name": "kill Gutter Denizen (gutter sconses)",                "level": "expert", "props": "predrangleic"},
     {"name": "kill Greatsword Foreigner phantom (Things Betwitx)",  "level": "expert", "props": "predrangleic"},
-    {"name": "return a strong heat to the crowns (4 crowns)",       "level": "expert"},
+    {"name": "return a strong heat to the crowns (4 crowns)",       "level": "torture"},
     {"name": "have all available NPCs alive in Majula together (gathering of exiles)", "level": "expert",
      "props": "predrangleic"},
 ]
