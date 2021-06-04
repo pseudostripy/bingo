@@ -1,4 +1,4 @@
-[{"name" : do not attune anything"},
+[{"name" : "do not attune anything"},
 {"name" : "don't use a bow"},
 {"name" : "don't speak to Lenigrast"},
 {"name" : "don't wear any armour"},

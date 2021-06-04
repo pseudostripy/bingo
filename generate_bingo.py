@@ -19,7 +19,7 @@ def generate(objectives, difflevels, thisdiff, bpredrang):
     # main file print loop
     for i, item in enumerate(f1obj):
         if i == 0:
-            f.write('[{"name" : ' + item["name"] + '"}')
+            f.write('[{"name" : "' + item["name"] + '"}')
         else:
             linestr = ',\n{"name" : "' + item["name"] + '"}'
             f.write(linestr)
