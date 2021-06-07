@@ -176,7 +176,7 @@ objectives = [
     {"name": "obtain Thunder Quartz ring +0, +1, +2, and +3",   "level": "hard"},
     {"name": "obtain 4 silver covertous serpent rings",         "level": "hard", "props": "predrangleic"},
     {"name": "obtain 6 covetous serpent rings (gold and silver)", "level": "hard", "props": "predrangleic"},
-    {"name": "obtain Outcry",                           "level": "expert", "props": "predrangleic"},
+    {"name": "obtain Outcry",                           "level": "expert"},
     {"name": "obtain the Ivory Warrior Ring",           "level": "expert"},
     {"name": "obtain the Curved Nil Greatsword",        "level": "expert"},
     {"name": "obtain the Chime of Screams (Nadalia)",   "level": "expert"},
