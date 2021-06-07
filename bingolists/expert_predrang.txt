@@ -130,7 +130,6 @@
 {"name" : "obtain chloranthy ring +0, +1, and +2"},
 {"name" : "obtain 4 silver covertous serpent rings"},
 {"name" : "obtain 6 covetous serpent rings (gold and silver)"},
-{"name" : "obtain Outcry"},
 {"name" : "purchase the Smelter Demon set"},
 {"name" : "purchase the Lost Sinner set"},
 {"name" : "purchase all 4 pieces of the Moonlight Butterfly set"},
