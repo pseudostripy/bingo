@@ -219,7 +219,7 @@
 {"name" : "upgrade a weapon with petrified dragon bones to +5"},
 {"name" : "invade and kill licia"},
 {"name" : "get all gestures"},
-{"name" : "Parry 5 bosses"},
+{"name" : "Parry 5 different bosses"},
 {"name" : "join all covenants"},
 {"name" : "light all 5 bonfires in Brume Tower"},
 {"name" : "light all 5 bonfires in Eleum Loyce"},

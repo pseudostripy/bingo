@@ -237,7 +237,7 @@ objectives = [
     {"name": "upgrade a weapon with petrified dragon bones to +5",  "level": "hard", "props": "predrangleic"},
     {"name": "invade and kill licia",               "level": "expert"},
     {"name": "get all gestures",                    "level": "expert"},
-    {"name": "Parry 5 bosses",                      "level": "expert", "props": "predrangleic"},
+    {"name": "Parry 5 different bosses",                      "level": "expert", "props": "predrangleic"},
     {"name": "join all covenants",                  "level": "expert"},
     {"name": "light all 5 bonfires in Brume Tower", "level": "expert", "props": "predrangleic"},
     {"name": "light all 5 bonfires in Eleum Loyce", "level": "expert"},

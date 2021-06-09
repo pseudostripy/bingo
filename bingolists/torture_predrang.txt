@@ -167,7 +167,7 @@
 {"name" : "cut off things from 3 different bosses"},
 {"name" : "upgrade a weapon with twinkling titanite to +5"},
 {"name" : "upgrade a weapon with petrified dragon bones to +5"},
-{"name" : "Parry 5 bosses"},
+{"name" : "Parry 5 different bosses"},
 {"name" : "light all 5 bonfires in Brume Tower"},
 {"name" : "kill Gutter Denizen (gutter sconses)"},
 {"name" : "kill Greatsword Foreigner phantom (Things Betwitx)"},
