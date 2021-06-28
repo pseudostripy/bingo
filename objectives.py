@@ -15,8 +15,10 @@ objectives = [
     {"name": "don't use any small lifegems",    "level": "hard", "props": ["predrangleic", "restriction"]},
     {"name": "only heal with estus or bonfire", "level": "expert", "props": ["predrangleic", "restriction"]},
     {"name": "don't use an upgraded weapon",    "level": "expert", "props": ["predrangleic", "restriction"]},
+    {"name": "only use NPC drops as weapons",   "level": "expert", "props": ["predrangleic", "restriction"]},
     {"name": "only starting gear (not including rings)", "level": "expert", "props": ["predrangleic", "restriction"]},
     {"name": "don't wear damage rings", "level": "expert", "props": ["predrangleic", "restriction"]},
+
 
     # kill
     {"name": "kill the Flexile Sentry",         "level": "easy", "props": "predrangleic"},
@@ -52,6 +54,8 @@ objectives = [
     # kill challenges
     {"name": "kill the Pursuer without ballista or quick kill", "level": "easy", "props": "predrangleic"},
     {"name": "kill Dragonrider with a full arena",              "level": "easy", "props": "predrangleic"},
+    {"name": "kill a boss with powerstanced weapons",           "level": "easy", "props": "predrangleic"},
+    {"name": "kill a boss with an NPC dropped weapon",          "level": "easy", "props": "predrangleic"},
     {"name": "kill 5 pursuers",                 "level": "medium", "props": "predrangleic"},
     {"name": "kill a boss with consumables",    "level": "medium", "props": "predrangleic"},
     {"name": "kill a boss with a bow",          "level": "medium", "props": "predrangleic"},
@@ -80,6 +84,8 @@ objectives = [
     {"name": "kill a lord with only pyromancies", "level": "hard", "props": "predrangleic"},
     {"name": "kill a lord with only miracles",  "level": "hard", "props": "predrangleic"},
     {"name": "kill a lord with only hexes",     "level": "hard", "props": "predrangleic"},
+    {"name": "kill a boss as a female wearing full mirrah (Lucatiel) set, using mirrah greatsword and shield",
+     "level": "expert"},
     {"name": "kill a boss with torch",          "level": "expert", "props": "predrangleic"},
     {"name": "kill a boss with the ladle",      "level": "expert", "props": "predrangleic"},
     {"name": "kill a boss with a greatbow",     "level": "expert", "props": "predrangleic"},
@@ -249,4 +255,3 @@ objectives = [
     {"name": "have all available NPCs alive in Majula together (gathering of exiles)", "level": "expert",
      "props": "predrangleic"},
 ]
-

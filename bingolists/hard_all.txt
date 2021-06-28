@@ -31,6 +31,8 @@
 {"name" : "kill Aava the King's Pet"},
 {"name" : "kill the Pursuer without ballista or quick kill"},
 {"name" : "kill Dragonrider with a full arena"},
+{"name" : "kill a boss with powerstanced weapons"},
+{"name" : "kill a boss with an NPC dropped weapon"},
 {"name" : "kill 5 pursuers"},
 {"name" : "kill a boss with consumables"},
 {"name" : "kill a boss with a bow"},

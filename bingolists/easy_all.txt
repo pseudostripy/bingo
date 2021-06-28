@@ -20,6 +20,8 @@
 {"name" : "Kill Benhart of Jugo"},
 {"name" : "kill the Pursuer without ballista or quick kill"},
 {"name" : "kill Dragonrider with a full arena"},
+{"name" : "kill a boss with powerstanced weapons"},
+{"name" : "kill a boss with an NPC dropped weapon"},
 {"name" : "obtain the Stone Ring"},
 {"name" : "obtain the Hawk Ring"},
 {"name" : "obtain Cale's Helm"},
