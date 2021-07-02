@@ -228,6 +228,7 @@ objectives = [
     {"name": "get unpoisoned by the gutter bug",                    "level": "easy", "props": "predrangleic"},
     {"name": "trade one boss soul with each vendor",                "level": "easy", "props": "predrangleic"},
     {"name": "do 5 trades with Dyna and Tillo",                     "level": "easy", "props": "predrangleic"},
+    {"name": "grab the flame butterfly from atop the tree in Najka fight", "level": "medium", "props": "predrangleic"},
     {"name": "reverse hollowing at the amana shrine",               "level": "medium"},
     {"name": "attune one of each type of spell at the same time",   "level": "medium", "props": "predrangleic"},
     {"name": "traverse 2 fog walls from behind",                    "level": "medium", "props": "predrangleic"},
