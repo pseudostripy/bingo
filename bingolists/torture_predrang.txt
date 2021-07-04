@@ -176,5 +176,6 @@
 {"name" : "light all 5 bonfires in Brume Tower"},
 {"name" : "kill Gutter Denizen (gutter sconses)"},
 {"name" : "kill Greatsword Foreigner phantom (Things Betwitx)"},
-{"name" : "have all available NPCs alive in Majula together (gathering of exiles)"}
+{"name" : "have all available NPCs alive in Majula together (gathering of exiles)"},
+{"name" : "have all 11 unique lesser soul items in your inventory at once"}
 ]
