@@ -9,6 +9,7 @@
 {"name" : "don't use any homeward bones"},
 {"name" : "don't use the Silver Cat Ring"},
 {"name" : "don't use any small lifegems"},
+{"name" : "don't pop any souls"},
 {"name" : "only heal with estus or bonfire"},
 {"name" : "don't use an upgraded weapon"},
 {"name" : "only use NPC drops as weapons"},

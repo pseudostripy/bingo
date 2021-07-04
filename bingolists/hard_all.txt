@@ -9,6 +9,7 @@
 {"name" : "don't use any homeward bones"},
 {"name" : "don't use the Silver Cat Ring"},
 {"name" : "don't use any small lifegems"},
+{"name" : "don't pop any souls"},
 {"name" : "kill the Flexile Sentry"},
 {"name" : "kill the Rotten"},
 {"name" : "kill the Old Iron King"},

@@ -13,6 +13,7 @@ objectives = [
     {"name": "don't use any homeward bones",    "level": "medium", "props": ["predrangleic", "restriction"]},
     {"name": "don't use the Silver Cat Ring",   "level": "medium", "props": ["predrangleic", "restriction"]},
     {"name": "don't use any small lifegems",    "level": "hard", "props": ["predrangleic", "restriction"]},
+    {"name": "don't pop any souls",             "level": "hard", "props": ["predrangleic", "restriction"]},
     {"name": "only heal with estus or bonfire", "level": "expert", "props": ["predrangleic", "restriction"]},
     {"name": "don't use an upgraded weapon",    "level": "expert", "props": ["predrangleic", "restriction"]},
     {"name": "only use NPC drops as weapons",   "level": "expert", "props": ["predrangleic", "restriction"]},
