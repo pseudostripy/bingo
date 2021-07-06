@@ -130,6 +130,7 @@
 {"name" : "obtain the Simpleton's Ring"},
 {"name" : "obtain the Pilgrim's Spontoon"},
 {"name" : "obtain the Majestic Greatsword"},
+{"name" : "obtain all 4 quartz +1 rings"},
 {"name" : "obtain clear bluestone ring +0, +1, and +2"},
 {"name" : "obtain chloranthy ring +0, +1, and +2"},
 {"name" : "obtain 4 silver covertous serpent rings"},
@@ -172,10 +173,13 @@
 {"name" : "cut off things from 3 different bosses"},
 {"name" : "upgrade a weapon with twinkling titanite to +5"},
 {"name" : "upgrade a weapon with petrified dragon bones to +5"},
+{"name" : "have all 6 resin types in your inventory"},
+{"name" : "have all 7 unique bomb/urn consumables in your inventory"},
 {"name" : "Parry 5 different bosses"},
 {"name" : "light all 5 bonfires in Brume Tower"},
 {"name" : "kill Gutter Denizen (gutter sconses)"},
 {"name" : "kill Greatsword Foreigner phantom (Things Betwitx)"},
+{"name" : "purchase all infusion options from Mcduff without speaking to Chloanne"},
 {"name" : "have all available NPCs alive in Majula together (gathering of exiles)"},
-{"name" : "have all 11 unique lesser soul items in your inventory at once"}
+{"name" : "have all 11 unique lesser soul items in your inventory"}
 ]

@@ -142,6 +142,7 @@
 {"name" : "obtain the Bone Fist"},
 {"name" : "obtain Unleash Magic"},
 {"name" : "obtain the King's Crown"},
+{"name" : "obtain all 4 quartz +1 rings"},
 {"name" : "obtain clear bluestone ring +0, +1, and +2"},
 {"name" : "obtain chloranthy ring +0, +1, and +2"},
 {"name" : "obtain life ring +0, +1, +2, and +3"},
@@ -198,5 +199,6 @@
 {"name" : "cut off things from 3 different bosses"},
 {"name" : "enter the fume knight fight wearing velstadts helm"},
 {"name" : "upgrade a weapon with twinkling titanite to +5"},
-{"name" : "upgrade a weapon with petrified dragon bones to +5"}
+{"name" : "upgrade a weapon with petrified dragon bones to +5"},
+{"name" : "have all 6 resin types in your inventory"}
 ]

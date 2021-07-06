@@ -118,6 +118,7 @@
 {"name" : "obtain the Simpleton's Ring"},
 {"name" : "obtain the Pilgrim's Spontoon"},
 {"name" : "obtain the Majestic Greatsword"},
+{"name" : "obtain all 4 quartz +1 rings"},
 {"name" : "obtain clear bluestone ring +0, +1, and +2"},
 {"name" : "obtain chloranthy ring +0, +1, and +2"},
 {"name" : "obtain 4 silver covertous serpent rings"},
@@ -159,5 +160,6 @@
 {"name" : "talk to Gavlan in all 3 locations"},
 {"name" : "cut off things from 3 different bosses"},
 {"name" : "upgrade a weapon with twinkling titanite to +5"},
-{"name" : "upgrade a weapon with petrified dragon bones to +5"}
+{"name" : "upgrade a weapon with petrified dragon bones to +5"},
+{"name" : "have all 6 resin types in your inventory"}
 ]

@@ -160,6 +160,7 @@
 {"name" : "obtain the Bone Fist"},
 {"name" : "obtain Unleash Magic"},
 {"name" : "obtain the King's Crown"},
+{"name" : "obtain all 4 quartz +1 rings"},
 {"name" : "obtain clear bluestone ring +0, +1, and +2"},
 {"name" : "obtain chloranthy ring +0, +1, and +2"},
 {"name" : "obtain life ring +0, +1, +2, and +3"},
@@ -223,6 +224,8 @@
 {"name" : "enter the fume knight fight wearing velstadts helm"},
 {"name" : "upgrade a weapon with twinkling titanite to +5"},
 {"name" : "upgrade a weapon with petrified dragon bones to +5"},
+{"name" : "have all 6 resin types in your inventory"},
+{"name" : "have all 7 unique bomb/urn consumables in your inventory"},
 {"name" : "invade and kill licia"},
 {"name" : "get all gestures"},
 {"name" : "Parry 5 different bosses"},
@@ -233,7 +236,9 @@
 {"name" : "inherit Lucatiel's armour"},
 {"name" : "kill Gutter Denizen (gutter sconses)"},
 {"name" : "kill Greatsword Foreigner phantom (Things Betwitx)"},
+{"name" : "purchase all infusion options from Mcduff without speaking to Chloanne"},
 {"name" : "have all available NPCs alive in Majula together (gathering of exiles)"},
-{"name" : "have all 11 unique lesser soul items in your inventory at once"},
-{"name" : "return a strong heat to the crowns (4 crowns)"}
+{"name" : "have all 11 unique lesser soul items in your inventory"},
+{"name" : "return a strong heat to the crowns (4 crowns)"},
+{"name" : "obtain 70 unique rings (+0, +1 etc. doesn't count)"}
 ]
