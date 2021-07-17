@@ -268,5 +268,5 @@ objectives = [
     {"name": "have all 11 unique lesser soul items in your inventory", "level": "expert",
      "props": "predrangleic"},
     {"name": "return a strong heat to the crowns (4 crowns)",       "level": "torture"},
-    {"name": "obtain 70 unique rings (+0, +1 etc. doesn't count)",  "level": "torture"},
+    {"name": "obtain 60 unique rings (+0, +1 etc. doesn't count)",  "level": "torture"},
 ]
