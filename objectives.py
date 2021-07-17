@@ -37,7 +37,7 @@ objectives = [
     {"name": "kill the Royal Rat Authority",    "level": "easy", "props": "predrangleic"},
     {"name": "kill the Old Dragonslayer",       "level": "easy", "props": "predrangleic"},
     {"name": "kill Vengarl's body",             "level": "easy", "props": "predrangleic"},
-    {"name": "kill Vendrick",                   "level": "hard", "props": "predrangleic"},
+    {"name": "kill Vendrick",                   "level": "hard"},
     {"name": "kill Ancient Dragon",             "level": "hard"},
     {"name": "kill the Gank Squad",             "level": "hard", "props": "predrangleic"},
     {"name": "kill Sinh the Slumbering Dragon", "level": "hard", "props": "predrangleic"},

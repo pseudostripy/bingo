@@ -22,7 +22,6 @@
 {"name" : "kill the Royal Rat Authority"},
 {"name" : "kill the Old Dragonslayer"},
 {"name" : "kill Vengarl's body"},
-{"name" : "kill Vendrick"},
 {"name" : "kill the Gank Squad"},
 {"name" : "kill Sinh the Slumbering Dragon"},
 {"name" : "kill Elana, Squalid Queen"},
