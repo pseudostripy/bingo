@@ -14,12 +14,12 @@ objectives = [
     {"name": "don't use the Silver Cat Ring",   "level": "medium", "props": ["predrangleic", "restriction"]},
     {"name": "don't use any small lifegems",    "level": "hard", "props": ["predrangleic", "restriction"]},
     {"name": "don't pop any souls",             "level": "hard", "props": ["predrangleic", "restriction"]},
+    {"name": "don't talk to Melentia",          "level": "hard", "props": ["predrangleic", "restriction"]},
     {"name": "only heal with estus or bonfire", "level": "expert", "props": ["predrangleic", "restriction"]},
     {"name": "don't use an upgraded weapon",    "level": "expert", "props": ["predrangleic", "restriction"]},
     {"name": "only use NPC drops as weapons",   "level": "expert", "props": ["predrangleic", "restriction"]},
     {"name": "only starting gear (not including rings)", "level": "expert", "props": ["predrangleic", "restriction"]},
     {"name": "don't wear damage rings", "level": "expert", "props": ["predrangleic", "restriction"]},
-
 
     # kill
     {"name": "kill the Rotten",                 "level": "trivial", "props": "predrangleic"},
@@ -93,7 +93,8 @@ objectives = [
     {"name": "kill a boss with torch",          "level": "expert", "props": "predrangleic"},
     {"name": "kill a boss with the ladle",      "level": "expert", "props": "predrangleic"},
     {"name": "kill a boss with a greatbow",     "level": "expert", "props": "predrangleic"},
-    {"name": "Kill chariot without pulling the lever",  "level": "expert", "props": "predrangleic"},
+    {"name": "kill chariot without pulling the lever",  "level": "expert", "props": "predrangleic"},
+    {"name": "kill one lord 6 times with all 6 resins", "level": "expert", "props": "predrangleic"},
 
     # obtain
     {"name": "obtain the Stone Ring",           "level": "trivial", "props": "predrangleic"},
@@ -252,10 +253,11 @@ objectives = [
     {"name": "have all 7 unique bomb/urn consumables in your inventory", "level": "expert", "props": "predrangleic"},
     {"name": "invade and kill licia",               "level": "expert"},
     {"name": "get all gestures",                    "level": "expert"},
-    {"name": "Parry 5 different bosses",                      "level": "expert", "props": "predrangleic"},
+    {"name": "Parry 5 different bosses",            "level": "expert", "props": "predrangleic"},
     {"name": "join all covenants",                  "level": "expert"},
     {"name": "light all 5 bonfires in Brume Tower", "level": "expert", "props": "predrangleic"},
     {"name": "light all 5 bonfires in Eleum Loyce", "level": "expert"},
+    {"name": "collect all 3 Eleum Loyce Knights",   "level": "expert"},
     {"name": "inherit Benhart's armour",            "level": "expert", "clash": "shrodinger Benhart"},
     {"name": "inherit Lucatiel's armour",           "level": "expert", "clash": "shrodinger Lucatiel"},
     {"name": "kill Gutter Denizen (gutter sconses)",                "level": "expert", "props": "predrangleic"},

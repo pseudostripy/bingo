@@ -10,6 +10,7 @@
 {"name" : "don't use the Silver Cat Ring"},
 {"name" : "don't use any small lifegems"},
 {"name" : "don't pop any souls"},
+{"name" : "don't talk to Melentia"},
 {"name" : "kill the Rotten"},
 {"name" : "kill the Old Iron King"},
 {"name" : "kill the Duke's Dear Freja"},
