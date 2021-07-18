@@ -16,6 +16,7 @@
 {"name" : "only use NPC drops as weapons"},
 {"name" : "only starting gear (not including rings)"},
 {"name" : "don't wear damage rings"},
+{"name" : "no levelling"},
 {"name" : "kill the Flexile Sentry"},
 {"name" : "kill the Executioner's Chariot"},
 {"name" : "kill the Belfry Gargoyles"},
@@ -55,6 +56,8 @@
 {"name" : "kill a lord without leveling"},
 {"name" : "kill a lord with the dagger"},
 {"name" : "kill a lord with the uchigatana"},
+{"name" : "kill a lord whilst in Covenant of Champions"},
+{"name" : "kill a boss with broken santiers spear"},
 {"name" : "kill a boss with a broken weapon"},
 {"name" : "kill a boss using only a shield"},
 {"name" : "kill a boss with only dung pies"},
@@ -75,6 +78,7 @@
 {"name" : "kill a boss with a greatbow"},
 {"name" : "kill chariot without pulling the lever"},
 {"name" : "kill one lord 6 times with all 6 resins"},
+{"name" : "kill Alonne without getting hit (Sudoku)"},
 {"name" : "obtain the Forlorn Hood"},
 {"name" : "obtain a Dragon Tooth"},
 {"name" : "obtain the spell Chameleon"},
@@ -193,12 +197,14 @@
 {"name" : "have at least one of each arrow type in your inventory"},
 {"name" : "have at least one of each great arrow type in your inventory"},
 {"name" : "have at least one of each bolt type in your inventory"},
+{"name" : "kill the Majula mimic (ng+)"},
 {"name" : "activate the dragon in Aldia's Keep"},
 {"name" : "cut off things from 3 different bosses"},
 {"name" : "enter the fume knight fight wearing velstadts helm"},
 {"name" : "upgrade a weapon with twinkling titanite to +5"},
 {"name" : "upgrade a weapon with petrified dragon bones to +5"},
 {"name" : "have all 6 resin types in your inventory"},
+{"name" : "kill 10 crystal lizards"},
 {"name" : "have all 7 unique bomb/urn consumables in your inventory"},
 {"name" : "invade and kill licia"},
 {"name" : "get all gestures"},
@@ -212,18 +218,10 @@
 {"name" : "kill Gutter Denizen (gutter sconses)"},
 {"name" : "kill Greatsword Foreigner phantom (Things Betwitx)"},
 {"name" : "kill Velstadt wearing Fume set, Fume sword, and Fume Ultra Greatsword"},
+{"name" : "in dragon shrine, kill the first three giant warriors and then kill all dragon dudes on the final stairs"},
 {"name" : "purchase all infusion options from Mcduff without speaking to Chloanne"},
 {"name" : "have all available NPCs alive in Majula together (gathering of exiles)"},
 {"name" : "have all 11 unique lesser soul items in your inventory"},
 {"name" : "return a strong heat to the crowns (4 crowns)"},
 {"name" : "obtain 60 unique rings (+0, +1 etc. doesn't count)"}
-
-{"name" : "Alonne Sudoku"}
-{"name" : "Kill 10 crystal lizards"}
-{"name" : "Never talk to Emerald Herald"}
-{"name" : "Kill a boss with broken santiers spear"}
-{"name" : "Obtain visible Aurous set from invasion"}
-{"name" : "Kill a COC Lord"}
-{"name" : "Kill all the Dragon Knights on the stairs to Ancient Dragon"}
-{"name" : "Kill the Majula Mimic"}
 ]

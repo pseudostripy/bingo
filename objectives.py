@@ -20,6 +20,7 @@ objectives = [
     {"name": "only use NPC drops as weapons",   "level": "expert", "props": ["predrangleic", "restriction"]},
     {"name": "only starting gear (not including rings)", "level": "expert", "props": ["predrangleic", "restriction"]},
     {"name": "don't wear damage rings", "level": "expert", "props": ["predrangleic", "restriction"]},
+    {"name": "no levelling",            "level": "torture", "props": ["predrangleic", "restriction"]},
 
     # kill
     {"name": "kill the Rotten",                 "level": "trivial", "props": "predrangleic"},
@@ -71,6 +72,8 @@ objectives = [
     {"name": "kill a lord without leveling",    "level": "medium", "props": "predrangleic"},
     {"name": "kill a lord with the dagger",     "level": "medium", "props": "predrangleic"},
     {"name": "kill a lord with the uchigatana", "level": "medium", "props": "predrangleic"},
+    {"name": "kill a lord whilst in Covenant of Champions", "level": "medium", "props": "predrangleic"},
+    {"name": "kill a boss with broken santiers spear", "level": "medium", "props": "predrangleic"},
     {"name": "kill a boss with a broken weapon", "level": "hard", "props": "predrangleic"},
     {"name": "kill a boss using only a shield", "level": "hard", "props": "predrangleic"},
     {"name": "kill a boss with only dung pies", "level": "hard", "props": "predrangleic"},
@@ -95,6 +98,7 @@ objectives = [
     {"name": "kill a boss with a greatbow",     "level": "expert", "props": "predrangleic"},
     {"name": "kill chariot without pulling the lever",  "level": "expert", "props": "predrangleic"},
     {"name": "kill one lord 6 times with all 6 resins", "level": "expert", "props": "predrangleic"},
+    {"name": "kill Alonne without getting hit (Sudoku)", "level": "expert"},
 
     # obtain
     {"name": "obtain the Stone Ring",           "level": "trivial", "props": "predrangleic"},
@@ -243,12 +247,14 @@ objectives = [
     {"name": "have at least one of each arrow type in your inventory",          "level": "medium"},
     {"name": "have at least one of each great arrow type in your inventory",    "level": "medium"},
     {"name": "have at least one of each bolt type in your inventory",           "level": "medium"},
+    {"name": "kill the Majula mimic (ng+)",                         "level": "medium", "props": "predrangleic"},
     {"name": "activate the dragon in Aldia's Keep",                 "level": "hard"},
     {"name": "cut off things from 3 different bosses",              "level": "hard", "props": "predrangleic"},
     {"name": "enter the fume knight fight wearing velstadts helm",  "level": "hard"},
     {"name": "upgrade a weapon with twinkling titanite to +5",      "level": "hard", "props": "predrangleic"},
     {"name": "upgrade a weapon with petrified dragon bones to +5",  "level": "hard", "props": "predrangleic"},
     {"name": "have all 6 resin types in your inventory",            "level": "hard", "props": "predrangleic"},
+    {"name": "kill 10 crystal lizards",                             "level": "hard", "props": "predrangleic"},
     {"name": "have all 7 unique bomb/urn consumables in your inventory", "level": "expert", "props": "predrangleic"},
     {"name": "invade and kill licia",               "level": "expert"},
     {"name": "get all gestures",                    "level": "expert"},
@@ -262,6 +268,8 @@ objectives = [
     {"name": "kill Gutter Denizen (gutter sconses)",                "level": "expert", "props": "predrangleic"},
     {"name": "kill Greatsword Foreigner phantom (Things Betwitx)",  "level": "expert", "props": "predrangleic"},
     {"name": "kill Velstadt wearing Fume set, Fume sword, and Fume Ultra Greatsword", "level": "expert"},
+    {"name": "in dragon shrine, kill the first three giant warriors and then kill all dragon dudes on the final stairs",
+     "level": "expert"},
     {"name": "purchase all infusion options from Mcduff without speaking to Chloanne",
      "level": "expert", "props": "predrangleic"},
     {"name": "have all available NPCs alive in Majula together (gathering of exiles)", "level": "expert",

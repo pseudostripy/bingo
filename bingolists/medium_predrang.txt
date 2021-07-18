@@ -39,6 +39,8 @@
 {"name" : "kill a lord without leveling"},
 {"name" : "kill a lord with the dagger"},
 {"name" : "kill a lord with the uchigatana"},
+{"name" : "kill a lord whilst in Covenant of Champions"},
+{"name" : "kill a boss with broken santiers spear"},
 {"name" : "obtain the Stone Ring"},
 {"name" : "obtain the Hawk Ring"},
 {"name" : "obtain Cale's Helm"},
@@ -130,5 +132,6 @@
 {"name" : "attune one of each type of spell at the same time"},
 {"name" : "traverse 2 fog walls from behind"},
 {"name" : "repair a weapon at the whipping tree"},
-{"name" : "talk to Gavlan in all 3 locations"}
+{"name" : "talk to Gavlan in all 3 locations"},
+{"name" : "kill the Majula mimic (ng+)"}
 ]
