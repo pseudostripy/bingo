@@ -217,4 +217,13 @@
 {"name" : "have all 11 unique lesser soul items in your inventory"},
 {"name" : "return a strong heat to the crowns (4 crowns)"},
 {"name" : "obtain 60 unique rings (+0, +1 etc. doesn't count)"}
+
+{"name" : "Alonne Sudoku"}
+{"name" : "Kill 10 crystal lizards"}
+{"name" : "Never talk to Emerald Herald"}
+{"name" : "Kill a boss with broken santiers spear"}
+{"name" : "Obtain visible Aurous set from invasion"}
+{"name" : "Kill a COC Lord"}
+{"name" : "Kill all the Dragon Knights on the stairs to Ancient Dragon"}
+{"name" : "Kill the Majula Mimic"}
 ]
