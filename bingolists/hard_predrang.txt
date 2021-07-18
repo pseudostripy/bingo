@@ -102,7 +102,6 @@
 {"name" : "obtain the Great Magic Weapon sorcery"},
 {"name" : "obtain the black knight ultra greatsword"},
 {"name" : "obtain the Engraved Gauntlets"},
-{"name" : "obtain 4 Rings of the Evil Eye"},
 {"name" : "obtain the Sanctum Mace"},
 {"name" : "obtain Promised Walk of Peace"},
 {"name" : "obtain Denial"},

@@ -156,7 +156,6 @@ objectives = [
     {"name": "obtain the Northern Ritual Band +2",          "level": "easy"},
     {"name": "obtain Gower's Ring of Protection",           "level": "easy"},
     {"name": "obtain the Engraved Gauntlets",   "level": "medium", "props": "predrangleic"},
-    {"name": "obtain 4 Rings of the Evil Eye",  "level": "medium", "props": "predrangleic"},
     {"name": "obtain the Sanctum Mace",         "level": "medium", "props": "predrangleic"},
     {"name": "obtain Promised Walk of Peace",   "level": "medium", "props": "predrangleic"},
     {"name": "obtain Denial",                   "level": "medium", "props": "predrangleic"},
