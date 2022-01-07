@@ -75,6 +75,8 @@ objectives = [
     {"name": "kill a lord with the uchigatana", "level": "medium", "props": "predrangleic"},
     {"name": "kill a lord whilst in Covenant of Champions", "level": "medium", "props": "predrangleic"},
     {"name": "kill a boss with broken santiers spear", "level": "medium", "props": "predrangleic"},
+    {"name": "kill Old Dragonslayer as your first boss", "level": "hard", "props": "predrangleic"},
+    {"name": "kill Najka as your first boss", "level": "hard", "props": "predrangleic"},
     {"name": "kill a boss with a broken weapon", "level": "hard", "props": "predrangleic"},
     {"name": "kill a boss using only a shield", "level": "hard", "props": "predrangleic"},
     {"name": "kill a boss with only dung pies", "level": "hard", "props": "predrangleic"},
