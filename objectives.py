@@ -1,3 +1,23 @@
+import Objective
+
+# Property descriptor examples:
+# Level-type
+#   0+ = (shorthand) Relevant for trivial (0) through torture (5)
+#   3  = Only relevant for Hard (3)
+#   12 = Relevant for easy (1), and medium (2) only.
+# Task-type
+#   R = Restriction objective
+#   O = Obtain objective
+#   T = Task objective
+#   K = Kill objective
+#   C = kill Challenge objective
+# Other classifiers:
+#   P = Pre-drangleic
+
+objs_defn = [
+    ["do not attune anything", "1+ P R"]
+    ]
+
 objectives = [
     # restriction
     {"name": "do not attune anything",          "level": "easy", "props": ["predrangleic", "restriction"]},
