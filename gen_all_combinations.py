@@ -1,7 +1,7 @@
 from objective_definitions import *
 from Objective import *
 from enum import IntEnum
-
+import os
 
 class LVL(IntEnum):
     TRIVIAL = 0,
@@ -23,20 +23,49 @@ def generate_all():
     #   remove expert: restriction types"
     #   remove easy,medium: kill types"
 
-    # Easy_all
-    test = generate_list("easy_all.txt",    objs, LVL.EASY,     predrang=True, excl=["0*"])
-    test = generate_list("expert_all.txt",  objs, LVL.EXPERT,   predrang=True, excl=["0123O"])
+    stdfol = "./bingolists/standard"
+    miscfol = "./bingolists/misc"
 
-    [print(vars(t)) for t in test]
-    print(len(test))
+    # Standard boards:
+    generate_list(stdfol, "easy_predrang.txt",      objs, LVL.EASY,     predrang=True)
+    generate_list(stdfol, "med_predrang.txt",       objs, LVL.MEDIUM,   predrang=True)
+    generate_list(stdfol, "hard_predrang.txt",      objs, LVL.HARD,     predrang=True)
+    generate_list(stdfol, "expert_predrang.txt",   objs, LVL.EXPERT,   predrang=True)
+    generate_list(stdfol, "easy_all.txt",           objs, LVL.EASY)
+    generate_list(stdfol, "med_all.txt",            objs, LVL.MEDIUM)
+    generate_list(stdfol, "hard_all.txt",           objs, LVL.HARD)
+    generate_list(stdfol, "expert_all.txt",         objs, LVL.EXPERT)
+
+    # Misc. boards:
+    generate_list(miscfol, "hard_minmed_pre.txt",     objs, LVL.EXPERT, predrang=True,  excl="01*")
+    generate_list(miscfol, "hard_minmed_all.txt",     objs, LVL.EXPERT, predrang=False, excl="01*")
+    generate_list(miscfol, "expert_minhard_pre.txt",  objs, LVL.EXPERT, predrang=True,  excl="012*")
+    generate_list(miscfol, "expert_minhard_all.txt",  objs, LVL.EXPERT, predrang=False, excl="012*")
+    generate_list(miscfol, "med_norestrict_pre.txt",  objs, LVL.MEDIUM, predrang=True,  excl="012R")
+    generate_list(miscfol, "med_norestrict_all.txt",  objs, LVL.MEDIUM, predrang=False, excl="012R")
+    generate_list(miscfol, "hard_norestrict_pre.txt", objs, LVL.HARD,   predrang=True,  excl="0123R")
+    generate_list(miscfol, "hard_norestrict_all.txt", objs, LVL.HARD,   predrang=False, excl="0123R")
+    generate_list(miscfol, "hard_killchallenges_pre.txt", objs, LVL.HARD, predrang=True,
+                  excl=["0123R", "0123O", "0123T", "0123K"])
+    generate_list(miscfol, "hard_killchallenges_all.txt", objs, LVL.HARD, predrang=False,
+                  excl=["0123R", "0123O", "0123T", "0123K"])
+    generate_list(miscfol, "expert_killchallenges_pre.txt", objs, LVL.EXPERT, predrang=True,
+                  excl=["01234R", "01234O", "01234T", "01234K"])
+    generate_list(miscfol, "hard_killchallenges_all.txt", objs, LVL.EXPERT, predrang=False,
+                  excl=["01234R", "01234O", "01234T", "01234K"])
 
 
-def generate_list(fname, allobjs, lvl, predrang=False, excl=None):
+def generate_list(fol, fname, allobjs, lvl, predrang=False, excl=None):
     if excl is None:
         excl = []
 
     objlist = filter_objectives(allobjs, lvl, predrang, excl)
-    write_file(fname, objlist)
+
+    if not os.path.isdir(fol):
+        os.mkdir(fol)
+
+    fpath = fol + "/" + fname
+    write_file(fpath, objlist)
     return objlist
 
 
@@ -96,10 +125,8 @@ def filter_objectives(allobjs, lvl, predrang=False, excl=None):
     return filt
 
 
-def write_file(fname, objs):
+def write_file(fpath, objs):
     # open file location
-    fol = "./bingolists/"
-    fpath = fol + fname
     f = open(fpath, "w")
 
     # main file print loop
@@ -117,3 +144,4 @@ def write_file(fname, objs):
 # Main()
 if __name__ == "__main__":
     generate_all()
+    print("Run complete!")

@@ -15,29 +15,29 @@
 
 objs_defn = [
     # restriction
-    ["do not attune anything",          "1+ P R"],
+    ["do not attune anything",          "1+ R P"],
 
-    ["don't shoot from a bow",          "012 P R"],  # trivial-medium version
-    ["don't use a bow",                 "3 P R"],    # hard-specific version
-    ["don't use a bow or crossbow",     "4+ P R"],   # expert+ version
+    ["don't shoot from a bow",          "012 R P"],  # trivial-medium version
+    ["don't use a bow",                 "3 R P"],    # hard-specific version
+    ["don't use a bow or crossbow",     "4+ R P"],   # expert+ version
 
     ["don't speak to Lenigrast",        "1+ P R"],
     ["don't wear any armour",           "1+ P R"],
     ["don't kill any NPCs",             "1+ P R"],
     ["don't use any weapon with primary thrust type", "1+ P R"],
-    ["don't use any resins",            "2+ P R"],
-    ["don't use any brightbugs",        "2+ P R"],
-    ["don't use any homeward bones",    "2+ P R"],
-    ["don't use the Silver Cat Ring",   "2+ P R"],
-    ["don't use any small lifegems",    "3+ P R"],
-    ["don't pop any souls",             "3+ P R"],
-    ["don't talk to Melentia",          "3+ P R"],
-    ["only heal with estus or bonfire", "4+ P R"],
-    ["don't upgrade a weapon",          "4+ P R"],
-    ["only use NPC drops as weapons",   "4+ P R"],
-    ["only starting gear (not including rings)", "4+ P R"],
-    ["don't wear damage rings",         "4+ P R"],
-    ["no levelling",                    "5+ P R"],
+    ["don't use any resins",            "2+ R P"],
+    ["don't use any brightbugs",        "2+ R P"],
+    ["don't use any homeward bones",    "2+ R P"],
+    ["don't use the Silver Cat Ring",   "2+ R P"],
+    ["don't use any small lifegems",    "3+ R P"],
+    ["don't pop any souls",             "3+ R P"],
+    ["don't talk to Melentia",          "3+ R P"],
+    ["only heal with estus or bonfire", "4+ R P"],
+    ["don't upgrade a weapon",          "4+ R P"],
+    ["only use NPC drops as weapons",   "4+ R P"],
+    ["only starting gear (not including rings)", "4+ R P"],
+    ["don't wear damage rings",         "4+ R P"],
+    ["no levelling",                    "5+ R P"],
 
     # kill
     ["kill the Rotten",                 "0+ K P"],
