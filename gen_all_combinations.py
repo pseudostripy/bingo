@@ -3,6 +3,7 @@ from Objective import *
 from enum import IntEnum
 import os
 
+
 class LVL(IntEnum):
     TRIVIAL = 0,
     EASY = 1,
