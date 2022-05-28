@@ -1,4 +1,4 @@
-from objectives import *
+from objective_definitions import *
 from Objective import *
 from enum import IntEnum
 
@@ -12,6 +12,7 @@ class LVL(IntEnum):
     TORTURE = 5
 
 
+# Main bingo lists generation:
 def generate_all():
     objs = create_objectives(objs_defn)
 
@@ -34,9 +35,9 @@ def generate_list(fname, allobjs, lvl, predrang=False, excl=None):
     if excl is None:
         excl = []
 
-    test = filter_objectives(allobjs, lvl, predrang, excl)
-
-    return test
+    objlist = filter_objectives(allobjs, lvl, predrang, excl)
+    write_file(fname, objlist)
+    return objlist
 
 
 def parse_exclusions(exclstr):
@@ -93,6 +94,24 @@ def filter_objectives(allobjs, lvl, predrang=False, excl=None):
         filt = exclude_set(filt, exclstr)
 
     return filt
+
+
+def write_file(fname, objs):
+    # open file location
+    fol = "./bingolists/"
+    fpath = fol + fname
+    f = open(fpath, "w")
+
+    # main file print loop
+    for i, item in enumerate(objs):
+        if i == 0:
+            f.write('[{"name" : "' + item.name + '"}')
+        else:
+            linestr = ',\n{"name" : "' + item.name + '"}'
+            f.write(linestr)
+    # fix end of file format
+    f.write("\n]\n")
+    f.close()
 
 
 # Main()
