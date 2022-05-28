@@ -30,7 +30,7 @@ def generate_all():
     generate_list(stdfol, "easy_predrang.txt",      objs, LVL.EASY,     predrang=True)
     generate_list(stdfol, "med_predrang.txt",       objs, LVL.MEDIUM,   predrang=True)
     generate_list(stdfol, "hard_predrang.txt",      objs, LVL.HARD,     predrang=True)
-    generate_list(stdfol, "expert_predrang.txt",   objs, LVL.EXPERT,   predrang=True)
+    generate_list(stdfol, "expert_predrang.txt",    objs, LVL.EXPERT,   predrang=True)
     generate_list(stdfol, "easy_all.txt",           objs, LVL.EASY)
     generate_list(stdfol, "med_all.txt",            objs, LVL.MEDIUM)
     generate_list(stdfol, "hard_all.txt",           objs, LVL.HARD)
