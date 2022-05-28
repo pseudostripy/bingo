@@ -6,7 +6,7 @@ from Objective import create_objectives
 def new_style():
     # Build objectives as filterable object list
     objs = create_objectives(objs_defn)
-    [print(objective.name) for objective in objs]
+    [print(vars(objective)) for objective in objs]
 
 
 def old_style():
