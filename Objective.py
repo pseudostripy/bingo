@@ -30,8 +30,9 @@ class Objective:
 
         # Parse properties
         (self.levels, self.task_type, self.pre_drang) = self.parse_properties(propstr)
+        self.minlvl = min(self.levels)
 
-    # Class properties
+    # Static dictionary:
     task_types = {'R': TaskType.RESTRICTION,
                   'O': TaskType.OBTAIN,
                   'T': TaskType.TASK,
@@ -57,6 +58,12 @@ class Objective:
         predrang = True if m else False
 
         return lvls, task_type, predrang
+
+    def has_level(self, lvl):
+        return lvl in self.levels
+
+    def is_otype(self, typ):
+        return self.task_type == typ
 
 
 def create_objectives(objlist):
